@@ -1,0 +1,27 @@
+body {
+    background: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    max-width: 960px;
+    height: 960px;
+}
+
+.row {
+    display: flex;
+    flex: auto;
+    gap: 1px;
+    height: 4px;
+}
+
+.square {
+    
+    flex: auto;
+}
+
+.hover {
+    background-color: black;
+}
